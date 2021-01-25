@@ -1,0 +1,179 @@
+.center{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+  }
+  h1{
+      color: black;
+      text-align: center;
+      padding-top: 40px;
+      padding-left: 60px;
+      margin-right : 32px;
+      
+      
+  }
+  ul{
+    padding: 0px;
+    margin-left:30px;
+    display: flex;
+  }
+  
+  ul li{
+    list-style: none;
+    border:4px solid black;
+    font-size: 18px;
+    font-weight: bold;
+    margin:30px;
+    border-radius: 15px;
+    height: 180px;
+    width:240px;
+    text-align: center;
+    font-family: arial;
+  
+  }
+  ul li a{
+  color:black;
+  text-decoration: none;
+  
+  padding: 15px 35px;
+  display:block;
+  }
+  img{
+      width: 100px;
+      height: 100px;
+      padding-bottom: 10px;
+  }
+  body{
+     background: url(bg3.jpg); 
+     background-size: cover;
+  
+  
+  
+  }
+  .logbtn{
+      background-color: transparent;
+      border: 4px solid black;
+      font-size: 18px;
+      font-weight: bold;
+      height: 50px;
+      width:100px;
+      border-radius: 15px;
+      display: inline-block;
+      margin-left: 1350px;
+      position: absolute;
+      top: 32px;
+      right: 32px;
+    
+  }
+  
+  .rolehover{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+  }
+  .rolehover:hover{
+    font-size: 0;
+  }
+  
+  .rolehover:hover:after{
+    content: attr(data-hover);
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+   
+  }
+  
+  .userhover{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+  }
+  .userhover:hover{
+    font-size: 0;
+  }
+  
+  .userhover:hover:after{
+    content: attr(data-hover);
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+   
+  }
+  
+  .customerhover{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+  }
+  .customerhover:hover{
+    font-size: 0;
+  }
+  
+  .customerhover:hover:after{
+    content: attr(data-hover);
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+   
+  }
+  .tablehover{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+  }
+  .tablehover:hover{
+    font-size: 0;
+  }
+  
+  .tablehover:hover:after{
+    content: attr(data-hover);
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+   
+  }
+  .foodmenuhover{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+  }
+  .foodmenuhover:hover{
+    font-size: 0;
+  }
+  
+  .foodmenuhover:hover:after{
+    content: attr(data-hover);
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+   
+  }
+  .orderhover{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+  }
+  .orderhover:hover{
+    font-size: 0;
+  }
+  
+  .orderhover:hover:after{
+    content: attr(data-hover);
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    
+   
+  }
+  
+  
+  
+  
+  
